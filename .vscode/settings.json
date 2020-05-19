@@ -1,0 +1,16 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "editor.cursorStyle": "block-outline",
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 2,
+    "editor.fontSize": 15,
+    "editor.wordWrap": "on",
+    "editor.columnSelection": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.formatOnType": true,
+    "editor.suggest.shareSuggestSelections": true,
+    "editor.suggest.statusBar.visible": true,
+    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.editor.highlightModifiedTabs": true
+}
