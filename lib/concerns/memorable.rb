@@ -4,19 +4,18 @@ module Memorable
     
   def reset_all
     self.all.clear 
-    extend Artist
-    extend Song 
   end 
   
   def count 
     self.all.count
-    extend Artist 
-    extend Song 
   end 
   
   module InstanceMethods
+    
+    def initialize 
     self.class.all << self 
   end 
+  
 end 
   
-
+end 
